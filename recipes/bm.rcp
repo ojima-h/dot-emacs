@@ -1,0 +1,4 @@
+(:name bm
+       :type github
+       :pkgname "joodland/bm"
+       :features bm)

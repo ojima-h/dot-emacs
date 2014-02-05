@@ -1,0 +1,4 @@
+(:name foreign-regexp
+               :website "https://github.com/k-talo/foreign-regexp.el"
+               :type github
+               :pkgname "k-talo/foreign-regexp.el")

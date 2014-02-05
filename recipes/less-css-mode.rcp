@@ -1,0 +1,4 @@
+(:name less-css-mode
+       :description "Emacs major mode for jade template highlighting."
+       :pkgname "purcell/less-css-mode"
+       :type github)

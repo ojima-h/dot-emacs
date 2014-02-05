@@ -1,0 +1,15 @@
+(:name foreign-regexp
+               :website "https://github.com/Wilfred/ag.el"
+               :type github
+               :pkgname "Wilfred/ag.el"
+               :features ag)
+
+
+
+
+
+
+
+
+
+

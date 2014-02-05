@@ -1,0 +1,9 @@
+(:name jade-mode
+       :description "Emacs major mode for jade template highlighting."
+       :pkgname "brianc/jade-mode"
+       :type github
+       :post-init (progn
+                    (require 'sws-mode)
+                    (require 'jade-mode)    
+                    (add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
+                    (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))))

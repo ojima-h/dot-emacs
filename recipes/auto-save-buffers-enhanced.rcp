@@ -1,0 +1,7 @@
+(:name auto-save-buffers-enhanced
+               :website "https://github.com/kentaro/auto-save-buffers-enhanced"
+               :type github
+               :pkgname "kentaro/auto-save-buffers-enhanced"
+               :post-init (progn
+                            (require 'auto-save-buffers-enhanced)
+                            (auto-save-buffers-enhanced t)))
