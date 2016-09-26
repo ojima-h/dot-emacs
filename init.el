@@ -33,6 +33,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 (el-get-bundle sequential-command-config)
 (el-get-bundle auto-complete)
 (el-get-bundle flycheck)
+(el-get-bundle yaml-mode)
 ;(el-get-bundle foreign-regexp)
 
 (require 'init-loader)
@@ -43,6 +44,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(indent-tabs-mode nil)
  '(make-backup-files nil)
  '(menu-bar-mode nil)
  '(scroll-bar-mode nil)
@@ -53,3 +55,4 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+(put 'upcase-region 'disabled nil)
